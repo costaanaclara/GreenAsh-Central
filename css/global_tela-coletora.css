@@ -1,0 +1,107 @@
+body{
+    font-family: "Estandar W03 Black";
+}
+
+a{
+    text-decoration: none;
+    color: #19c63b;   
+}
+
+
+
+
+
+/* CONTAINER MENU */
+.container-menu{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+/* título menu */
+.titulo-menu{
+    color: #19c63b;
+}
+
+/* logo menu */
+.logo-menu{
+    width: 20vh;
+    height: 5vh;
+}
+
+
+
+
+/* INPUT */
+
+/* input solo */
+.input-solo{
+    width: 90%;
+
+    border-radius: 3vh 3vh 3vh 3vh;
+    background-color: #d9d9d9;
+    border-color: #d9d9d9;
+    color: #545454;
+
+    margin-top: 1vh;
+    margin-left: 5%;
+    padding-left: 2vh;
+}
+
+/* input duplo */
+.input-duplo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vh;
+}
+
+/* input esquerda - duplo */
+.input-esquerda{
+    width: 87vh;
+    
+    border-radius: 3vh 3vh 3vh 3vh;
+    background-color: #d9d9d9;
+    border-color: #d9d9d9;
+    color: #545454;
+
+    margin-left: 5%;
+    padding-left: 2vh;
+}
+
+/* input direita - duplo */
+.input-direita{
+    width: 87vh;
+
+    border-radius: 3vh 3vh 3vh 3vh;
+    background-color: #d9d9d9;
+    border-color: #d9d9d9;
+    color: #545454;
+
+    margin-right: 5%;
+    padding-left: 2vh;
+}
+
+
+
+
+
+/* CONTAINER BOTÕES*/
+.container-botoes{
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+/* configuração botões */
+.botao{
+    width: 30vh;
+
+    border-radius: 3vh 3vh 3vh 3vh;
+    background-color: #26973c;
+    border-color: #26973c;
+    color: #19c63b;
+
+    margin-left: 1vh;
+}

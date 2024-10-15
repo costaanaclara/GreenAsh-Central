@@ -1,0 +1,310 @@
+body{
+    font-family: "Estandar W03 Black";
+}
+
+a{
+    text-decoration: none;
+    color: #19c63b;   
+}
+
+
+
+
+
+/* CONTAINER LOGO */
+.container-logo{
+    width: 40vh;
+    height: 10vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-left: 40%;
+    margin-top: 3%;
+    
+    color: #19c63b;
+}
+
+/* LOGO imagem - configuração */
+.container-logo img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+/* CONTAINER MENU */
+.container-menu{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* perfil menu*/
+.perfil-menu{
+    display: flex;
+}
+
+/* icone dos botões - menu */
+.icone{
+    width: 5vh;
+    height: 5vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    background-color: #19c63b;
+    color: white;
+}
+
+/* título menu */
+.titulo-menu{
+    color: #545454;
+
+    padding-left: 2vh;
+}
+
+
+
+
+
+/* CONTAINER METAS */
+
+/* título metas */
+.titulo-metas{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 3%;
+
+    color: #26973c;
+}
+
+/* botão metas-alteração */
+.abrir-alteracao{
+    margin-left: 1vh;
+}
+
+/* subtítulo metas */
+.subtitulo{
+    display: flex;
+    justify-content: center;
+    
+    margin-top: -2vh;
+
+    color: #19c63b;
+}
+
+
+
+
+
+/* CAIXA ALTERAÇÃO */
+
+/* menu da caixa */
+.menu-alteracao{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* título alteração: meta atual */
+.titulo-alteracao{
+    font-size: 12px;
+    color: #545454;
+}
+
+/* botão fechar */
+.botao-fechar{
+    margin-top: -3vh;
+
+    color: #545454;
+}
+
+/* tipo de meta atual: Tipo de meta: coletas realizadas */
+.tipo-meta{
+    font-size: 10px;
+    color: #545454;
+    
+    margin-top: -2vh;
+}
+
+/* meta atual: Meta: 20 coletas/mês */
+.meta-atual{
+    font-size: 10px;
+    color: #545454;
+   
+    margin-top: -4vh;
+}
+
+/* título meta: ALTERAR META */
+.titulo-meta{
+    font-size: 12px;
+    color: #545454;
+    
+    margin-top: 3vh;
+}
+
+/* comando: Escolha o tipo de meta */
+.comando-tipo{
+    font-size: 10px;
+    color: #545454;
+
+    margin-top: -2vh;
+}
+
+/* item dropdown */
+.dropdown-item{
+    font-size: 8px;
+}
+
+/* configuração do botão do dropdown */
+.btn{
+    width: 32vh;
+    height: 5vh;
+
+    font-size: 8px;
+    margin-top: -7vh;
+}
+
+/* comando: quantidade que deseja alterar */
+.comando-quantidade{
+    font-size: 10px;
+    color: #545454;
+
+    margin-top: -3vh;
+    margin-bottom: -0.5vh;
+}
+
+/* digitar: digite a quantidade */
+.digitar{
+    width: 32vh;
+    height: 5vh;
+    
+    font-size: 8px;
+    border-radius: 1vh 1vh 1vh 1vh;
+    background-color: #737373;
+    border-color: #737373;
+    color: white;
+  
+}
+
+/* botões: cancelar e alterar */
+.botoes-metas{
+    margin-top: 2vh;
+    border-radius: 2vh 2vh 2vh 2vh;
+}
+
+/* botão cancelar */
+.botao-cancelar{
+    width: 15vh;
+    font-size: 8px;
+
+    border-radius: 2vh 2vh 2vh 2vh;
+    background-color: #545454;
+    border-color: #545454;
+    color: #d9d9d9;
+}
+
+/* botão alterar */
+.botao-alterar{
+    width: 15vh;
+
+    margin-left: 1vh;
+    
+    font-size: 8px;
+    border-radius: 2vh 2vh 2vh 2vh;
+    background-color: #545454;
+    border-color: #545454;
+    color: #d9d9d9;
+}
+
+
+
+
+
+/* CONTAINER BOTÕES */
+.container-botoes{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* botão */
+.botoes{
+    width: 35vh;
+    height: 40vh;
+    position: relative;
+    background-color: #19c63b;
+    border-radius: 5vh 5vh 5vh 5vh;
+}
+
+/* tipo */
+.tipo{
+    margin-top: 55%;
+    margin-left: 10%;
+    color: #d9d9d9;
+}
+
+/* nome */
+.nome{
+    margin-left: 10%;
+    margin-top: -7%;
+    color: white;
+}
+
+/* icon */
+.icon{
+    margin-left: 80%;
+    margin-top: 10%;
+    color: white;
+}
+
+
+
+
+
+/* CAIXA CADASTRO */
+
+/* menu cadastro */
+.menu-cadastro{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* título da caixa: O que você deseja cadastrar? */
+.titulo-cadastro{
+    font-size: 16px;
+    color: #545454;
+}
+
+/* botão fechar: fechar caixa */
+.fechar-cadastro{
+    margin-top: 4vh;
+}
+
+/* botões de cadastro */
+.botao-cadastro{
+    border-radius: 3vh 3vh 3vh 3vh;
+    background-color: #26973c;
+    border-color: #26973c;
+}
+
+/* CONTAINER FUNDO */
+.container-fundo{
+    width: 100%;
+    height: 30vh;
+    margin-top: -12%;
+    background-color: #26973c;
+    
+}

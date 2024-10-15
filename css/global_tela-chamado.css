@@ -1,0 +1,93 @@
+body{
+    font-family: "Estandar W03 Black";
+}
+
+a{
+    text-decoration: none;
+    color: #19c63b;   
+}
+
+
+
+
+
+/* CONTAINER LOGO */
+.container-logo{
+    width: 40vh;
+    height: 10vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #19c63b;
+
+    margin-left: 40%;
+    margin-top: 3%;
+}
+
+/* LOGO imagem - configuração */
+.container-logo img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+/* CONTAINER MENU */
+.container-menu{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+    
+}
+
+/* título menu: suas notificações de chamado */
+.titulo-menu{
+    color: #19c63b;
+    padding-left: 2vh;
+}
+
+
+
+
+
+/* CONTAINER NOTIFICAÇÃO*/
+.container-notificacao{
+    width: 90%;
+    height: 11vh;
+    
+    background-color: #a6a6a6;
+    border-radius: 3vh 3vh 3vh 3vh;
+
+    display: flex;
+    margin-left: 5%;
+    margin-top: 0.5%;
+}   
+
+/* dados da notificação */
+.dados-notificacao{
+    width: 60%;
+    padding-left: 4%;
+    margin-top: 0.5%;
+}
+
+/* informação da notificação */
+.informacao-notificacao{
+    display: flex;
+    height: 3vh;
+    margin-bottom: 1%;
+}
+
+/* resposta da notificação */
+.resposta-notificacao{
+    margin-left: 3%;
+    color: white;
+}
+
+/* comando da notificação */
+.comando-notificacao{
+    color: #737373;
+}
